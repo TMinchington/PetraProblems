@@ -1,0 +1,4 @@
+# Ignore illustrator files
+*.ai
+# Ignore venv
+.venv
