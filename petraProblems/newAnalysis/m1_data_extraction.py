@@ -12,9 +12,9 @@ import tifffile
 from numba import njit
 
 
-from h1_mask_functions import grow_labels_skimage, get_sparse_matrix, check_masks, get_all_indicies, get_transplant
-from h2_qc_functions import make_qc_graph
-from h3_position_functions import get_centroid, get_distance_to_line
+from petraProblems.newAnalysis.h1_mask_functions import grow_labels_skimage, get_sparse_matrix, check_masks, get_all_indicies, get_transplant
+from petraProblems.newAnalysis.h2_qc_functions import make_qc_graph
+from petraProblems.newAnalysis.h3_position_functions import get_centroid, get_distance_to_line
 
 def bins(value):
     bin_dic = {89.74494: "L1" , 

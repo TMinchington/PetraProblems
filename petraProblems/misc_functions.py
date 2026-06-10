@@ -4,7 +4,7 @@ Extra functions to make petra problems work
 import os 
 import json
 
-JSON_PATH = "fullGUI/petraProblems/.data/path.json"
+JSON_PATH = "petraProblems/.data/path.json"
 
 def paths_json_saver(json_dic):
     with open(JSON_PATH, "w") as jout:
