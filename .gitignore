@@ -2,3 +2,7 @@
 *.ai
 # Ignore venv
 .venv
+# Ignroe pycache
+__pycache__
+# Ignore VSCode settings
+.vscode
